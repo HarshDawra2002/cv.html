@@ -1,0 +1,84 @@
+
+/* tag selector */
+h5{
+    /* text property */
+    color: red;
+    /* text-decoration: underline; */
+
+    /* border property */
+    /* border: 2px solid black; */
+    
+    /* outline property */
+    /* outline: 2px solid black; */
+}
+
+/* body selector */
+body{
+    /* background property */
+    background-color: antiquewhite;
+    /* background-image: url('./IMG_20230618_122347_192.jpg'); */
+    /* background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;  */
+    font-family: "Zilla Slab", system-ui;
+    /* font-style: oblique; */
+    font-weight: 400;
+    /* font-variant: small-caps; */
+}
+
+/* class selector */
+/* .list{
+    background-color: red;
+} */
+
+/* id selector */
+/* #list, h2{
+    color: red;
+} */
+
+/* attribute selector */
+/* a[href]{
+    color: red;
+} */
+table, th, td{
+    /* margin used to give outside space */
+    /* margin: top, right, bottom, left */
+    /* margin: 5px 10px; */
+
+    /* border-collapse property */
+    border: 2px solid red;
+    border-collapse: collapse;
+    height: 50px;
+    width: 500px;
+    text-align: center;
+
+    /* padding used to give inside space */
+    /* padding: top, right, bottom, left */
+    /* padding: 5px 10px 15px 20px; */
+}
+
+/* p{
+    text-align: justify;
+    text-transform: lowercase;
+    text-indent: 5px;
+    /* letter-spacing: 2px;
+    word-spacing: 5px; 
+    /* line-height: 20px;
+    text-shadow: 5px 5px 5px rgba(199, 53, 53, 5); */
+/* } */
+
+/* a:active{
+    color: green;
+} */
+
+/* a:visited{
+    color: yellow;
+} */
+
+a:link{
+    color: red;
+}
+
+/* a:hover{
+    color: blueviolet;
+} */
